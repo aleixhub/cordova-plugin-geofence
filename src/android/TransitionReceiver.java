@@ -28,7 +28,7 @@ public class TransitionReceiver extends BroadcastReceiver {
             //handle geoNotifications objects
             for (GeoNotification geoNotification : geoNotifications) {
                 if (geoNotification.notification != null) {
-                    notifier.notify(geoNotification.notification, "");
+                    notifier.notify(geoNotification.notification);
                 }
             }                      
         }       
