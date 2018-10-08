@@ -36,7 +36,7 @@ public class Notification {
         int resId = assets.getResIdForDrawable(this.smallIcon);
 
         if (resId == 0) {
-            resId = android.R.drawable.ic_menu_mylocation;
+            resId = android.R.drawable.ic_dialog_info;
         }
 
         return resId;
