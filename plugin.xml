@@ -71,7 +71,7 @@
         </config-file>
         
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
-            <receiver android:name="cat.diba.bibliotequesxbm.TransitionReceiver">
+            <receiver android:name="com.cowbell.cordova.geofence.TransitionReceiver">
                 <intent-filter>
                     <action android:name="com.cowbell.cordova.geofence.TRANSITION" />
                 </intent-filter>
